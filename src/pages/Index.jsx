@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { Heart, Paw, Shield } from "lucide-react";
+import { Heart, Dog, Shield } from "lucide-react";
 
 const Index = () => {
   return (
@@ -21,7 +21,7 @@ const Index = () => {
               description="Dogs offer unwavering loyalty and affection, providing emotional support and companionship."
             />
             <FeatureCard
-              icon={<Paw className="h-12 w-12 text-brown-500" />}
+              icon={<Dog className="h-12 w-12 text-brown-500" />}
               title="Active Lifestyle"
               description="Having a dog encourages regular exercise and outdoor activities, promoting a healthier lifestyle."
             />
